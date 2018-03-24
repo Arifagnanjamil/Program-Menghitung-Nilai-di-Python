@@ -21,5 +21,5 @@ for i in range(no):
     na = int(n_uas[i])
     akhir = (nt*30/100) + (nu*35/100) + (na*35/100)
     table.add_rows([['No','Nama','NIM','TUGAS','UTS','UAS','AKHIR'],
-                    [i+1, nama[i],nim[i],n_tugas[i],n_uts[i],n_uas[i],akhir]])
-    print (table.draw())
+                    [i+1,nama[i],nim[i],n_tugas[i],n_uts[i],n_uas[i],akhir]])
+print (table.draw())
